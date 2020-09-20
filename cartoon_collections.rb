@@ -14,5 +14,6 @@ def list_dwarves(array)
   n=1
   array.each_with_index do |array|
     puts "#{{n}} #{array}"
+    n=n+1
   end
 end
